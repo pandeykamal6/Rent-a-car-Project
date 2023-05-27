@@ -1,3 +1,8 @@
 <template>
-    <lightning-card title ="Search Car Type"></lightning-card>
+    <lightning-card title ="Displaying All cars">
+        <lightning-datatable
+            data={carDataValues.data}
+            columns={carFields}
+        ></lightning-datatable>
+    </lightning-card>
 </template>
